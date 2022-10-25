@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+ margin:0;
+ padding:0;
+ font-family:Playfair display;   
+}
+
+.contact-section{
+ padding: 40px 0px;
+}
+
+.contact-section h1{
+text-align: center;
+color:rgba(0, 0, 0, 0.85);
+}
+
+.border{
+    width:100px;
+    height:10px;
+    background:rgba(0, 0, 0, 0.85);
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin:auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+display: block;
+width:100%;
+box-sizing:border-box;
+margin: 16px 0;
+border: 0;
+padding: 20px 40px;
+outline: none;
+transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.85);
+}
+
+textarea.contact-form-text{
+resize: none;
+height: 120px;
+}
+
+.contact-form-btn{
+    float: right;
+    width: 30%;
+    padding: 25px 30px;
+    color:white;
+    border-radius: 15px;
+    background-color: rgba(248, 122, 101, 1);  
+    text-align: center;
+    text-decoration: none; 
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+}
+
+.contact-form-btn:hover{
+   background:rgba(0, 0, 0, 0.85); 
+}
